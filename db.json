@@ -3,18 +3,66 @@
         {
             "id": 1,
             "name": "tidsestimatpoker",
-            "description": "projektbeskrivning",
+            "description": "projektbeskrivning for tidsestimatpoker",
             "issues": [
                 {
                     "id": 1,
                     "assigne": "Johanna",
-                    "title": "issue1",
+                    "title": "tidsestimatpoker-issue1",
                     "description": "fixa design",
                     "estimate": [
                         { "name": "Mats", "time": 2 },
                         { "name": "Johanna", "time": 2 }
                     ],
                     "actualtime": 4,
+                    "estimated": true
+                },
+                {
+                    "id": 2,
+                    "assigne": "Mats",
+                    "title": "tidsestimatpoker-issue2",
+                    "description": "backend",
+                    "estimate": [
+                        { "name": "Mats", "time": 2 },
+                        { "name": "Johanna", "time": 2 }
+                    ],
+                    "actualtime": 4,
+                    "estimated": true
+                }
+            ],
+            "members": [
+                { "id": 1, "name": "Mats" },
+                { "id": 2, "name": "Johanna" },
+                { "id": 3, "name": "Rebecka" }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "project2",
+            "description": "projektbeskrivning for project2",
+            "issues": [
+                {
+                    "id": 1,
+                    "assigne": "Johanna",
+                    "title": "project2-issue1",
+                    "description": "CSS",
+                    "estimate": [
+                        { "name": "Mats", "time": 2 },
+                        { "name": "Johanna", "time": 2 }
+                    ],
+                    "actualtime": 4,
+                    "estimated": true
+                },
+                {
+                    "id": 2,
+                    "assigne": "Rebecka",
+                    "title": "project2-issue2",
+                    "description": "frontend",
+                    "estimate": [
+                        { "name": "Mats", "time": 2 },
+                        { "name": "Johanna", "time": 2 }
+                    ],
+                    "actualtime": 6,
                     "estimated": true
                 }
             ],
